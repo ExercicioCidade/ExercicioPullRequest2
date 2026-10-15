@@ -1,11 +1,16 @@
 import React from 'react'
+import Header from './components/Header';
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <div className="min-h-screen bg-gray-950 text-white">
+      <Header />
 
-export default App
+      <main className="max-w-7xl mx-auto py-12 px-4">
+        <h1 className="text-4xl font-black uppercase tracking-wider text-center">
+          Bem-vindo à Temporada
+        </h1>
+      </main>
+    </div>
+  );
+}
