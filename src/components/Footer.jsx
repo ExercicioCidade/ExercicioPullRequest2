@@ -37,7 +37,63 @@ const Footer = () => {
                     </div>
                 </div>
 
+                <div className="text-white">
+                    <h3 className="mb-5 text-sm font-semibold">
+                        Ajuda
+                    </h3>
 
+                    <ul className="space-y-3 text-sm opacity-70">
+                        <li>
+                            <a href="#" className="transition hover:opacity-100">
+                                Perguntas frequentes
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" className="transition hover:opacity-100">
+                                Trocas e devoluções
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" className="transition hover:opacity-100">
+                                Prazo de entrega
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" className="transition hover:opacity-100">
+                                Formas de pagamento
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="text-white">
+                    <h3 className="mb-5 text-sm font-semibold">
+                        Atendimento
+                    </h3>
+
+                    <ul className="space-y-3 text-sm opacity-70">
+                        <li>
+                            <a href="#" className="transition hover:opacity-100">
+                                WhatsApp: 📞 (11) 99999-9999
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" className="transition hover:opacity-100">
+                                E-mail:✉️ contato@planetabrinq.com
+                            </a>
+                        </li>
+
+                        <li>
+                            <span>
+                                📅 Seg — Sex, 9h às 18h
+                            </span>
+                        </li>
+                    </ul>
+                </div>
 
 
             </div>
