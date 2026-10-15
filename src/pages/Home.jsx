@@ -3,12 +3,12 @@ import { useEffect, useState } from "react"
 const Home = () => {
 
     const bicicletas = [
-  { id: 1, title: "Bicicleta Um", description: "First item description." },
-  { id: 2, title: "Bicicleta Dois", description: "Second item description." },
-  { id: 3, title: "Bicicleta Três", description: "Third item description." },
-  { id: 4, title: "Bicicleta Quatro", description: "Fourth item description." },
-  { id: 5, title: "Bicicleta Cinco", description: "Fifth item description." },
-  { id: 6, title: "Bicicleta Seis", description: "Sixth item description." },
+  { id: 1, title: "Bicicleta Um", description: "First item description.", price: 1000.00 },
+  { id: 2, title: "Bicicleta Dois", description: "Second item description.", price: 1500.00 },
+  { id: 3, title: "Bicicleta Três", description: "Third item description.", price: 3000.00 },
+  { id: 4, title: "Bicicleta Quatro", description: "Fourth item description.", price: 2500.00 },
+  { id: 5, title: "Bicicleta Cinco", description: "Fifth item description.", price: 3500.00 },
+  { id: 6, title: "Bicicleta Seis", description: "Sixth item description.", price: 2000.00 },
 ];
 
 return (
@@ -26,7 +26,11 @@ return (
                 <p className="text-sm text-gray-300">
                     {bicicleta.description}
                 </p>
-                <div className="mt-4 flex justify-center">
+
+                <p className="text-xl text-gray-300 text-center mt-4 font-bold">
+                    R${bicicleta.price}
+                </p>
+                <div className="mt-2 flex justify-center">
                     <button className="w-1/2 rounded-2xl bg-red-500 px-4 py-1 text-lg font-semibold text-white hover:bg-red-700">
                         Comprar
                     </button>
