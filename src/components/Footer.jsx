@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <footer className="w-full border-t border-current bg-gradient-to-b from-[#070d1b] to-[#ff251e] ">
+        <footer className="w-full bg-linear-to-b from-[#070d1b] to-[#ff251e] ">
             <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-6 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
 
                 <div className="sm:col-span-2 lg:col-span-1">
@@ -12,7 +12,6 @@ const Footer = () => {
                         Bicicletas que fazem você viver grandes aventuras!
                     </p>
 
-                    {/* Redes sociais */}
                     <div className="mt-6 flex flex-wrap gap-2 text-white">
                         <a
                             href="#"
@@ -98,7 +97,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="border-y border-current mx-auto flex max-w-7xl flex-col gap-5 px-6 py-6 text-xs lg:flex-row lg:items-center lg:justify-between lg:px-8 text-white">
+            <div className="border-t border-current mx-auto flex max-w-7xl flex-col gap-5 px-6 py-6 text-xs lg:flex-row lg:items-center lg:justify-between lg:px-8 text-white">
 
                 <div className="flex flex-wrap gap-4 opacity-70 text-white">
                     <span>🔒 Compra segura</span>
